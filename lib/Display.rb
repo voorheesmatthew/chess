@@ -1,7 +1,8 @@
 require_relative 'cursor'
 require_relative 'board'
+require_relative 'slideable'
 require 'colorize'
-# require 'colorized_string'
+
 
 class Display
 
@@ -57,7 +58,7 @@ if __FILE__ == $PROGRAM_NAME
     # system('clear')
     display.cursor.get_input
     display.render
-    p display.cursor.cursor_pos
+    # p display.cursor.cursor_pos
   end
 
 end

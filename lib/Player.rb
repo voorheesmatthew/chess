@@ -1,16 +1,17 @@
-class Player 
-  
+class Player
+
   def initialize(color, display)
-    @color = color 
-    @display = display 
-  end 
-end 
+    @color = color
+    @display = display
+  end
+end
 
-class HumanPlayer < Player 
+class HumanPlayer < Player
   def make_move(_board)
-  end 
-end 
+  end
+end
 
-class ComputerPlayer < Player 
+class ComputerPlayer < Player
   def make_move(board)
-end 
+  end
+end
